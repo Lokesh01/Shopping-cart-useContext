@@ -32,7 +32,7 @@ const CartItem = ({ id, qty }: cartItemProps) => {
         </div>
 
         <div className="text-muted" style={{ fontSize: ".9rem" }}>
-          {currencyFormatter(item?.price)}
+          {currencyFormatter(item?.price || 0)}
         </div>
       </div>
 
@@ -42,7 +42,7 @@ const CartItem = ({ id, qty }: cartItemProps) => {
       <Button
         variant="outline-danger"
         size="sm"
-        onClick={() => removeFromCart(item.id)}
+        onClick={() => removeFromCart(item?.id || 0)}
       >
         &times;
       </Button>
