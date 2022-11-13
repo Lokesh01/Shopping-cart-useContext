@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "Javascript Book",
+    "price": 700,
+    "imgUrl": "/images/js book.png"
+  },
+  {
+    "id": 2,
+    "name": "Mac Book",
+    "price": 96000,
+    "imgUrl": "/images/mac.jpeg"
+  },
+  {
+    "id": 3,
+    "name": "Bottle",
+    "price": 1500,
+    "imgUrl": "/images/adidas bottle.jpeg"
+  },
+  {
+    "id": 4,
+    "name": "Iphone 14",
+    "price": 88500,
+    "imgUrl": "/images/iphone.jpeg"
+  },
+  {
+    "id": 5,
+    "name": "Peanut Butter",
+    "price": 450,
+    "imgUrl": "/images/peanut butter.jpeg"
+  },
+  {
+    "id": 6,
+    "name": "Oziva Protein",
+    "price": 8999,
+    "imgUrl": "/images/protein.jpeg"
+  }
+]
